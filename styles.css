@@ -3,10 +3,24 @@ body {
 }
 
 .container1 {
-    display: flex;
-    justify-content: flex-end;
+    margin-top: 0;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    
 }
 
+.margin {
+    margin-left: 73%;
+}
+
+.content {
+    display: inline-block;
+    
+}
+
+#grad {
+    background-image: linear-gradient(to right,#659F55, #C4BB55,#FFB855,#FF6669,#FF5B6A);
+}
 .container2 {
     margin-top: 7em;
     margin-bottom: 4em;
