@@ -1,9 +1,11 @@
-body {
+.topContainer {
     background-image: url('images/background-618226.png');
 }
 
-.container1 {
-    margin-top: 0;
+.container1 { 
+    position: fixed;
+    top: 0;
+    width: 100%;
     padding-top: 1.3em;
     padding-bottom: 1.3em;
     
@@ -22,7 +24,7 @@ body {
     background-image: linear-gradient(to right,#659F55, #C4BB55,#FFB855,#FF6669,#FF5B6A);
 }
 .container2 {
-    margin-top: 7em;
+    margin-top: 70px     ;
     margin-bottom: 4em;
     text-align: center;
 }
